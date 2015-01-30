@@ -1,5 +1,7 @@
 import sys
 def analyze(filename):
+    '''this is peters
+    and now it is the second line.'''
     data = np.loadtxt(fname=filename, delimiter=',')
     
     plt.figure(figsize=(10.0, 3.0))
