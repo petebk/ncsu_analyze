@@ -1,3 +1,4 @@
+import sys
 def analyze(filename):
     data = np.loadtxt(fname=filename, delimiter=',')
     
@@ -17,3 +18,6 @@ def analyze(filename):
     
     plt.tight_layout()
     plt.show()
+script = sys.argv[0]
+inputfile = sys.argv[1]
+outputfile = sys.argv[2]
